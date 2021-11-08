@@ -41,7 +41,7 @@ body {
   color: #2196f3;
 }
 .header-list :focus {
-  color: green;
+  color: #2196f3;
 }
 .header-item {
   color: currentColor;
@@ -50,7 +50,6 @@ body {
 .header-contact {
   color: var(--secondary-text-color);
   font-family: var(--basic-text);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -60,7 +59,7 @@ body {
   color: #2196f3;
 }
 .header-contact :focus {
-  color: green;
+  color: #2196f3;
 }
 .header-mail,
 .header-tel {
@@ -84,7 +83,7 @@ body {
   color: #ffffff;
 }
 .hero-btn {
-  font-family: "Roboto";
+  font-family: var(--basic-text);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -98,14 +97,14 @@ body {
   background-color: #188ce8;
 }
 .hero-btn:focus {
-  color: green;
+  background-color: #188ce8;
 }
 
 /*------------------------PRIORITY----------------------*/
 
 .priority-title {
   color: var(--basic-text-color);
-  font-family: "Roboto";
+  font-family: var(--basic-text);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -115,7 +114,7 @@ body {
 
 .priority-text {
   color: var(--secondary-text-color);
-  font-family: "Roboto";
+  font-family: var(--basic-text);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -126,7 +125,7 @@ body {
 
 .example-title {
   color: var(--basic-text-color);
-  font-family: "Roboto", sans-serif;
+  font-family: var(--basic-text);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -138,7 +137,7 @@ body {
 
 .team-title {
   color: var(--basic-text-color);
-  font-family: Roboto;
+  font-family: var(--basic-text);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -147,7 +146,7 @@ body {
 }
 .team-subtitle {
   color: var(--basic-text-color);
-  font-family: Roboto;
+  font-family: var(--basic-text);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -155,7 +154,7 @@ body {
 }
 .team-text {
   color: var(--secondary-text-color);
-  font-family: Roboto;
+  font-family: var(--basic-text);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -179,7 +178,7 @@ body {
   color: #2196f3;
 }
 .footer-adress {
-  font-family: Roboto;
+  font-family: var(--basic-text);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -189,7 +188,7 @@ body {
 }
 .footer-mail,
 .footer-tel {
-  font-family: Roboto;
+  font-family: var(--basic-text);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -201,14 +200,14 @@ body {
   color: #2196f3;
 }
 .footer-list :focus {
-  color: green;
+  color: #2196f3;
 }
 
 /*=======================PORTFOLIO===================*/
 /*-------------------Portfolio buttons------------------*/
 
 .nav-button {
-  font-family: Roboto;
+  font-family: var(--basic-text);
   font-style: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -224,7 +223,7 @@ body {
 /*---------------------Project----------------------*/
 
 .project-title {
-  font-family: Roboto;
+  font-family: var(--basic-text);
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -233,7 +232,7 @@ body {
   color: var(--basic-text-color);
 }
 .project-text {
-  font-family: Roboto;
+  font-family: var(--basic-text);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
