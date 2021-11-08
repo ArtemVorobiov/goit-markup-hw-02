@@ -1,10 +1,12 @@
 body {
   background-color: #ffffff;
   color: #212121;
+  font-family: "Roboto", sans-serif;
 }
 :root {
   --basic-text-color: #212121;
   --secondary-text-color: #757575;
+  --basic-text: "Roboto", sans-serif;
 }
 
 .link {
@@ -28,8 +30,8 @@ body {
   color: #2196f3;
 }
 .header-list {
-  color: #212121;
-  font-family: "Roboto";
+  color: var(--basic-text-color);
+  font-family: var(--basic-text);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -41,9 +43,13 @@ body {
 .header-list :focus {
   color: green;
 }
+.header-item {
+  color: currentColor;
+}
+
 .header-contact {
-  color: #757575;
-  font-family: "Roboto";
+  color: var(--secondary-text-color);
+  font-family: var(--basic-text);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -56,6 +62,10 @@ body {
 .header-contact :focus {
   color: green;
 }
+.header-mail,
+.header-tel {
+  color: currentColor;
+}
 
 /*------------------------HERO-----------------------*/
 
@@ -64,7 +74,7 @@ body {
 }
 
 .hero-title {
-  font-family: "Roboto";
+  font-family: var(--basic-text);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -158,7 +168,7 @@ body {
   background-color: #2f303a;
 }
 .footer-logo {
-  color: #000000;
+  color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -197,14 +207,14 @@ body {
 /*=======================PORTFOLIO===================*/
 /*-------------------Portfolio buttons------------------*/
 
-.buttons-list {
+.nav-button {
   font-family: Roboto;
-  font-style: normal;
+  font-style: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: var(--basic-text-color)
+  color: var(--basic-text-color);
 }
 .nav-button :hover {
   background-color: #2196f3;
@@ -220,7 +230,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--basic-text-color)
+  color: var(--basic-text-color);
 }
 .project-text {
   font-family: Roboto;
@@ -229,7 +239,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color)
+  color: var(--secondary-text-color);
 }
 
 /* body {
