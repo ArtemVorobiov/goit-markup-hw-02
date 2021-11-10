@@ -29,22 +29,24 @@ body {
 .header-logo span {
   color: #2196f3;
 }
+
 .header-list {
-  color: var(--basic-text-color);
-  font-family: var(--basic-text);
+  color: inherit;
+  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.header-list :hover {
-  color: #2196f3;
-}
+.header-list :hover,
 .header-list :focus {
   color: #2196f3;
 }
 .header-item {
   color: currentColor;
+}
+.current {
+  color: #2196f3;
 }
 
 .header-contact {
@@ -55,9 +57,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.header-contact :hover {
-  color: #2196f3;
-}
+.header-contact :hover,
 .header-contact :focus {
   color: #2196f3;
 }
@@ -83,7 +83,7 @@ body {
   color: #ffffff;
 }
 .hero-btn {
-  font-family: var(--basic-text);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -93,9 +93,7 @@ body {
 .hero-btn {
   background-color: #2196f3;
 }
-.hero-btn:hover {
-  background-color: #188ce8;
-}
+.hero-btn:hover,
 .hero-btn:focus {
   background-color: #188ce8;
 }
@@ -207,17 +205,16 @@ body {
 /*-------------------Portfolio buttons------------------*/
 
 .nav-button {
-  font-family: var(--basic-text);
-  font-style: inherit;
+  color: inherit;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: var(--basic-text-color);
 }
-.nav-button :hover {
+.nav-button:hover,
+.nav-button:focus {
   background-color: #2196f3;
-  color: #ffffff;
 }
 
 /*---------------------Project----------------------*/
